@@ -52,6 +52,7 @@ header nav ul li:last-of-type a{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 86px);
+    position: relative;
 }
 .main_banner .container{
     max-width: 600px;
@@ -93,6 +94,7 @@ header nav ul li:last-of-type a{
 .help_photo{
     background: #000000;
     padding: 113px 0 108px 0;
+    text-align: center;
 }
 .help_photo .container{
     max-width: 600px;
@@ -124,23 +126,21 @@ header nav ul li:last-of-type a{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
     letter-spacing: 0.4px;
     color: #000000;
     background: #FFFFFF;
     border-radius: 14px;
-    padding: 9px 10px 13px 42px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    padding: 6px 10px 6px 3px;
+    display: inline-flex;
+
 }
-.get :before {
+.get:before {
     content: "";
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
     background-color: black;
-    color: black;
-    padding-right: 20px;
-
+    margin-right: 10px;
 }

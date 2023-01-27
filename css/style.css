@@ -53,3 +53,94 @@ header nav ul li:last-of-type a{
     background-size: cover;
     height: calc(100vh - 86px);
 }
+.main_banner .container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.main_banner h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    padding-top: 466px;
+}
+.main_banner h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 18px;
+}
+.main_banner p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 60px;
+}
+.help_photo{
+    background: #000000;
+    padding: 113px 0 108px 0;
+}
+.help_photo .container{
+    max-width: 600px;
+    margin: auto;
+}
+.help_text_one{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.help_text_two{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 22px;
+}
+.get{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 9px 10px 13px 42px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.get :before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: black;
+    padding-right: 20px;
+
+}

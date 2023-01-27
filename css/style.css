@@ -133,7 +133,7 @@ header nav ul li:last-of-type a{
     border-radius: 14px;
     padding: 6px 10px 6px 3px;
     display: inline-flex;
-
+    align-items: center;
 }
 .get:before {
     content: "";
@@ -143,4 +143,31 @@ header nav ul li:last-of-type a{
     border-radius: 20px;
     background-color: black;
     margin-right: 10px;
+}
+.main_banner .bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.main_banner .bottom_icon li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.main_banner .bottom_icon li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
 }

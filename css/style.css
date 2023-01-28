@@ -134,6 +134,7 @@ header nav ul li:last-of-type a{
     padding: 6px 10px 6px 3px;
     display: inline-flex;
     align-items: center;
+    text-decoration: none;
 }
 .get:before {
     content: "";
@@ -144,7 +145,7 @@ header nav ul li:last-of-type a{
     background-color: black;
     margin-right: 10px;
 }
-.main_banner .bottom_icon{
+.bottom_icon{
     position: absolute;
     right: 40px;
     bottom: 41px;
@@ -152,7 +153,7 @@ header nav ul li:last-of-type a{
     align-items: center;
     list-style: none;
 }
-.main_banner .bottom_icon li{
+.bottom_icon li{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -161,7 +162,7 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
     margin-left: 16px;
 }
-.main_banner .bottom_icon li:before{
+.bottom_icon li:before{
     content: "";
     display: inline-block;
     background-image: url("../images/icon_1.svg");
@@ -170,4 +171,73 @@ header nav ul li:last-of-type a{
     margin-right: 6px;
     position: relative;
     top: 5px;
+}
+.bottom_icon li:nth-child(2):before{
+    background-image: url("../images/icon_2.svg");
+}
+.bottom_icon li:nth-child(3):before{
+    background-image: url("../images/icon_3.svg");
+    width: 32px;
+}
+.bottom_icon li:nth-child(4):before{
+    background-image: url("../images/icon_4.svg");
+    width: 10px;
+    height: 16px;
+}
+.fuji_banner{
+    background-image: url("../images/fuji.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.fuji_banner .container{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.banner_article{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.leaves_banner{
+    background-image: url("../images/leaves.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.leaves_banner .container{
+    max-width: 273px;
+    margin-right: 87px;
+}
+.himalayas_banner{
+    background-image: url("../images/himalayas.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.himalayas_banner .container{
+    max-width: 254px;
+    margin-right: 106px;
 }

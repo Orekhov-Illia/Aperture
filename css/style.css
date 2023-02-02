@@ -53,6 +53,9 @@ header nav ul li:last-of-type a{
     background-size: cover;
     height: calc(100vh - 86px);
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .main_banner .container{
     max-width: 600px;
@@ -89,7 +92,7 @@ header nav ul li:last-of-type a{
     line-height: 20px;
     text-align: center;
     color: #C0C0C0;
-    padding-bottom: 60px;
+    padding-bottom: 71px;
 }
 .help_photo{
     background: #000000;
@@ -241,3 +244,90 @@ header nav ul li:last-of-type a{
     max-width: 254px;
     margin-right: 106px;
 }
+.four_photos{
+    padding-top: 113px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+.four_photos .container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.four_photos h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.four_photos h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.img_wight{
+    display: block;
+    width: 100%;
+}
+.photo_text{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.photo_article{
+    max-width: 576px;
+    position: relative;
+    margin-bottom: 16px;
+}
+.p_title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.p_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 15px;
+}
+.photo_text a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 7px 3px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+

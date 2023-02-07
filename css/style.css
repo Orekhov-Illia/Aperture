@@ -259,7 +259,7 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     padding-bottom: 82px;
 }
-.past_clients .companies ul{
+.past_clients .companies{
     display: flex;
     justify-content: space-between;
     align-items: center;

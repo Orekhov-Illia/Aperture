@@ -263,6 +263,43 @@ header nav ul li:last-of-type a{
     justify-content: space-between;
     align-items: center;
 }
+.companies a{
+    max-width: 128px;
+    display: inline-block;
+}
+.owl-item{
+    text-align: center;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -10px;
+    top: 30px;
+}
+.owl-nav .owl-prev:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: -10px;
+    top: 30px;
+}
+.owl-nav .owl-next:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
 .himalayas_banner{
     background-image: url("../images/himalayas.jpg");
     background-size: cover;
@@ -522,6 +559,11 @@ footer .container:nth-child(2){
 footer .container:last-of-type{
     padding-top: 60px;
 }
-.footer_links li{
+.footer_links li {
     margin-left: 20px;
+}
+
+.ui-dialog .ui-dialog-content{
+    background-color: black;
+    color: #FFFFFF;
 }
